@@ -31,3 +31,13 @@ for (int i = 0; i < elements.Length; i++)
 }
 Console.WriteLine();
 
+int count = 0;
+for (int i = 0; i < elements.Length; i++)
+{
+    bool mark = elements[i] >= '0' && elements[i] <= '9';
+    if (mark == false)
+    {
+        count++;
+    }
+}
+System.Console.WriteLine();
