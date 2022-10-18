@@ -47,8 +47,8 @@ int j = 0;
 for (int i = 0; i < elements.Length; i++)
 {
 
-    bool flag = elements[i] >= '0' && elements[i] <= '9';
-    if (flag == false)
+    bool mark = elements[i] >= '0' && elements[i] <= '9';
+    if (mark == false)
     {
 
         String[j] = Convert.ToString(elements[i]);
